@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../assets/milad-fakurian-seA-FPPXL-M-unsplash.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formContainer form {
+    background-color: rgba(86, 77, 224, 0.705);
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+}
+
+.formContainer form div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+label {
+    color: rgb(227, 225, 255);
+    display: block;
+}
+
+.formContainer form input {
+    background-color: rgb(37, 49, 114);
+    border: none;
+    width: 300px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.formContainer form input:focus {
+    outline: none;
+    background-color: rgba(37, 49, 114, 0.637);
+}
+
+.button {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(224, 217, 235);
+    color: rgb(224, 217, 235);
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-in;
+}
+
+.hover:hover {
+    background-color: rgb(221, 212, 241);
+    border: 2px solid rgb(221, 212, 241);
+    color: black;
+}
+
+.registerDiv {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.registerDiv p {
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.registerDiv .registerButton {
+    background-color: transparent;
+    font-size: 14px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 50px;
+    padding: 5px 10px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.registerDiv .registerButton:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+}
+
+
+/*disabled button style*/
+
+.disabledClass {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.welcomeMesage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
